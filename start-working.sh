@@ -1,8 +1,9 @@
 #helps start working
-
+cd `dirname $0`
+cd $1
 cat DOCS | while read i
 do
-	echo $i
+#	echo $i
 	gnome-open "$i"
 done
 
