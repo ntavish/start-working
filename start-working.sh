@@ -10,6 +10,6 @@ done
 cat APPS | while read i
 do
 #	echo $i
-	"$i" &
+	"$i"  >/dev/null 2>&1 &
 done
 
