@@ -1,6 +1,22 @@
-quickly start working.
+This is a small script to get you quickly start working. If you 
+often find yourself opening the same set of programs, documents,
+and various such sets (i.e. different projects), then you will
+probably find this useful.
 
 Usage:
-start-working.sh work
 
-There are two files in the directory named work, APPS, and DOCS
+start-working.sh work
+start-working.sh project
+
+To configure the profile 'work':
+Create a directory named 'work' in the script directory.
+Create two files in that directory=> APPS, and DOCS
+
+Write the commands to launch the programs you want
+to run in the work profile, one in each line of APPS.
+
+Write the name of documents to be opened in APPS. These
+will be opened using gnome-open.
+
+Requirements:
+Linux, bash, gnome desktop
